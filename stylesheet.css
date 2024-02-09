@@ -1,0 +1,48 @@
+body {
+  background-image: linear-gradient(to right, #4b6cb7 0%, #182848 100%);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+}
+
+body,
+p,
+li,
+div,
+footer,
+nav ul li strong {
+  color: #ffffff; /* Making text white */
+}
+
+a,
+button {
+  color: #ffd700; /* Gold */
+  background-color: #4b6cb7;
+  border: 1px solid #ffd700;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+a:hover,
+button:hover {
+  background-color: #ffd700;
+  color: #182848;
+}
+
+nav,
+footer {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+h2,
+h3,
+h4,
+nav ul li strong,
+footer small a {
+  color: #e6c300; /* Darker gold tone for headings and footer links */
+}
+
+.hidden {
+  display: none;
+}
