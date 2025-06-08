@@ -1,5 +1,5 @@
 function showSection(sectionId) {
-  var sections = ["resume", "portfolio", "blog"];
+  var sections = ["resume", "portfolio", "blog", "about"];
   sections.forEach(function (id) {
     var element = document.getElementById(id);
     if (id === sectionId) {
@@ -11,5 +11,6 @@ function showSection(sectionId) {
 }
 
 window.onload = function () {
-  showSection("portfolio"); // Automatically display the Portfolio section when the page loads
+  // Display the portfolio section by default when the page loads
+  showSection("portfolio");
 };
