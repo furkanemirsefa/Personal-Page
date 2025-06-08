@@ -13,3 +13,7 @@ function showSection(sectionId) {
 window.onload = function () {
   showSection("portfolio"); // Automatically display the Portfolio section when the page loads
 };
+
+if (typeof module !== "undefined" && module.exports) {
+  module.exports = { showSection };
+}
